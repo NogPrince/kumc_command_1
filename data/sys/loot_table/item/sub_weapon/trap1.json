@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_13",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "トラップ",
+                "color": "white",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{gun:{bullet:{m:1,n:1,p:1,l:400,c:1,t:3},gun:{c:10,s:2,t:3},reload:{n:60,m:60},auto:{m:0,n:0},name:\"トラップ\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:use_cooldown": {
+                  "seconds": 40,
+                  "cooldown_group": "trap1"
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 0.05,
+                  "animation": "none",
+                  "sound": "minecraft:block.dispenser.launch",
+                  "has_consume_particles": false
+                },
+                "!minecraft:jukebox_playable": {},
+                "minecraft:custom_model_data": 5
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "再使用時間40秒",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "接触した敵にダメージを与えるトラップ",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "小さな煙が出ているのでよく見て避けよう",
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
