@@ -1,0 +1,116 @@
+{
+  "description": {
+    "translate": "explode"
+  },
+  "exclusive_set": "#minecraft:exclusive_set/crossbow",
+  "supported_items": "minecraft:black_glazed_terracotta",
+  "weight": 10,
+  "max_level": 4,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1000
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 1000
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "head"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:explode",
+          "damage_type": "minecraft:arrow",
+          "radius": {
+            "type": "minecraft:linear",
+            "base": 0,
+            "per_level_above_first": 1
+          },
+          "block_interaction": "none",
+          "small_particle": {
+            "type": "minecraft:explosion"
+          },
+          "large_particle": {
+            "type": "minecraft:explosion"
+          },
+          "sound": "minecraft:entity.lightning_bolt.impact",
+          "knockback_multiplier": 0,
+          "attribute_to_user": true
+        },
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "bullet_life_count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "particle": {
+            "type": "minecraft:explosion_emitter"
+          },
+          "horizontal_position": {
+            "type": "in_bounding_box",
+            "scale": 2
+          },
+          "vertical_position": {
+            "type": "in_bounding_box",
+            "scale": 2
+          },
+          "horizontal_velocity": {},
+          "vertical_velocity": {},
+          "speed": 0
+        },
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "bullet_life_count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:explode",
+          "damage_type": "minecraft:arrow",
+          "radius": {
+            "type": "minecraft:linear",
+            "base": 0,
+            "per_level_above_first": 1
+          },
+          "block_interaction": "none",
+          "small_particle": {
+            "type": "minecraft:explosion"
+          },
+          "large_particle": {
+            "type": "minecraft:explosion_emitter"
+          },
+          "sound": "minecraft:entity.lightning_bolt.impact",
+          "knockback_multiplier": 0,
+          "attribute_to_user": true
+        },
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "bullet_life_count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": {
+    "translate": "no exp"
+  },
+  "supported_items": "minecraft:crossbow",
+  "weight": 2,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1000
+  },
+  "max_cost": {
+    "base": 41,
+    "per_level_above_first": 1000
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "hand"
+  ],
+  "effects": {
+    "minecraft:mob_experience": [
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": 0
+        }
+      }
+    ]
+  }
+}
