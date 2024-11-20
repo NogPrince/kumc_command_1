@@ -53,24 +53,24 @@ FAQ
 
 開発者および開発協力者一覧
 
-マップ制作
-ロビー:krogane
-砂の神殿:nog_prince
-資材置き場:nog_prince
-ビオトープ:krogane
-海底神殿:nog_prince
-フリーバトル用フィールド:nog_prince,Neco_susu
+マップ制作 
+ロビー:krogane 
+砂の神殿:nog_prince 
+資材置き場:nog_prince 
+ビオトープ:krogane 
+海底神殿:nog_prince 
+フリーバトル用フィールド:nog_prince,Neco_susu 
 
-コマンド:nog_prince
+コマンド:nog_prince 
 
-テクスチャ
-モデリング:capbom
-テクスチャ作成:kr46
+テクスチャ 
+モデリング:capbom 
+テクスチャ作成:kr46 
 
-デバッグ&テストプレイ
-上記の人々&
-mashi4
-mobpac
-orange_ToT
-ALctoki
-kinton
+デバッグ&テストプレイ 
+上記の人々& 
+mashi4 
+mobpac 
+orange_ToT 
+ALctoki 
+kinton 
