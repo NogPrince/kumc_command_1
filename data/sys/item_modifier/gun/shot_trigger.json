@@ -1,0 +1,28 @@
+[
+  {
+    "function": "minecraft:set_contents",
+    "component": "minecraft:charged_projectiles",
+    "entries": [
+      {
+        "type": "minecraft:item",
+        "name": "minecraft:arrow",
+        "functions": [
+          {
+            "function": "minecraft:set_name",
+            "entity": "this",
+            "name": {
+              "text": "通常弾",
+              "italic": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:hide_additional_tooltip": {}
+    }
+  }
+]
