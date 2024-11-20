@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "shot_crossbow": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "weapon.mainhand": {
+                  "items": "minecraft:crossbow",
+                  "components": {
+                    "minecraft:enchantments": {
+                      "sys:gun_shot_check": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:crossbow",
+          "components": {
+            "minecraft:enchantments": {
+              "sys:gun_shot_check": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sys:gun_main/sub/advancement/shot_trigger_mainhand"
+  }
+}
