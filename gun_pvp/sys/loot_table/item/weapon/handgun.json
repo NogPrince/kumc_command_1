@@ -1,0 +1,99 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "ハンドガン[12/12]",
+                "color": "white",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "sys:gun_shot_check": 1
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{gun:{bullet:{m:12,n:12,p:1,l:10,d:35,c:1},gun:{c:3,s:2,t:1},reload:{n:15,m:15},auto:{m:0,n:0},name:\"ハンドガン\"}}"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "sys:gun/shot_trigger"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "装弾数:12",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "射程:短",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "威力:中",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "ブレ:小",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "速射:高",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "リロード:短",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "単発式の基本的な銃",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "威力は低いが扱いやすい",
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

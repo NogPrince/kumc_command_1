@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_13",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "インスタントウォール",
+                "color": "white",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{gun:{bullet:{m:1,n:1,p:1,l:200,c:1,t:2},gun:{c:10,s:2,t:3},reload:{n:60,m:60},auto:{m:0,n:0},name:\"インスタントウォール\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:use_cooldown": {
+                  "seconds": 30,
+                  "cooldown_group": "wall1"
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 0.05,
+                  "animation": "none",
+                  "sound": "minecraft:block.dispenser.launch",
+                  "has_consume_particles": false
+                },
+                "!minecraft:jukebox_playable": {},
+                "minecraft:custom_model_data": 3
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "再使用時間30秒",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "正面に壁を設置する簡易建築キット",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "銃弾を防ぐ強固な壁を設置する",
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

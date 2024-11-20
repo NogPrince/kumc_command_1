@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_13",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "グレネード",
+                "color": "white",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{gun:{bullet:{m:2,n:2,p:1,l:40,c:1,t:1},gun:{c:5,s:2,t:2},reload:{n:40,m:40},auto:{m:0,n:0},name:\"グレネード\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:use_cooldown": {
+                  "seconds": 13,
+                  "cooldown_group": "gre3"
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 0.05,
+                  "animation": "none",
+                  "sound": "minecraft:block.dispenser.launch",
+                  "has_consume_particles": false
+                },
+                "!minecraft:jukebox_playable": {},
+                "minecraft:custom_model_data": 1
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "再使用時間13秒",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "一定時間で爆発する手榴弾",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "範囲内の全員にダメージを与える",
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

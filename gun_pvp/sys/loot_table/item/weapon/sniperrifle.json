@@ -1,0 +1,99 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "スナイパーライフル[5/5]",
+                "color": "white",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "sys:gun_shot_check": 1
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{gun:{bullet:{m:5,n:5,p:1,l:40,d:60,c:1},gun:{c:20,s:0,t:1},reload:{n:35,m:35},auto:{m:0,n:0},name:\"スナイパーライフル\"}}"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "sys:gun/shot_trigger"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 3
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "装弾数:5",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "射程:極長",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "威力:高",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "ブレ:極小",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "速射:低",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "リロード:長",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "威力の高い狙撃銃",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "使いこなすには技術が必要",
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
