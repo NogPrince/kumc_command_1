@@ -1,0 +1,2 @@
+summon item_display ~ ~1 ~ {Tags:["skill_temp","turret_heal"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-0.2f,0f],scale:[0.8f,0.8f,0.8f]},item:{id:"minecraft:beacon",count:1}}
+execute as @e[tag=skill_temp] at @s run function sys:gun_main/projectile/turret/heal_sub

@@ -1,0 +1,6 @@
+execute as @s[tag=red_set_text] run data modify entity @s text set value '[{"bold":true,"color":"red","text":"RED\\n"},{"score":{"name":"#system","objective":"red_player"}},"人"]'
+execute as @s[tag=blue_set_text] run data modify entity @s text set value '[{"bold":true,"color":"blue","text":"BLUE\\n"},{"score":{"name":"#system","objective":"blue_player"}},"人"]'
+execute as @s[tag=green_set_text] run data modify entity @s text set value '[{"bold":true,"color":"green","text":"GREEN\\n"},{"score":{"name":"#system","objective":"green_player"}},"人"]'
+execute as @s[tag=yellow_set_text] run data modify entity @s text set value '[{"bold":true,"color":"yellow","text":"YELLOW\\n"},{"score":{"name":"#system","objective":"yellow_player"}},"人"]'
+execute as @s[tag=red_1_set_text] run data modify entity @s text set value '[{"bold":true,"color":"red","text":"RED\\n"},{"score":{"name":"#system","objective":"red_player_1"}},"人"]'
+execute as @s[tag=blue_1_set_text] run data modify entity @s text set value '[{"bold":true,"color":"blue","text":"BLUE\\n"},{"score":{"name":"#system","objective":"blue_player_1"}},"人"]'
