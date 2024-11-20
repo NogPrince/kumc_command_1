@@ -1,1 +1,0 @@
-summon text_display ~ ~ ~ {billboard:"vertical",Rotation:[180F,0F],Tags:["kit1_set_text"],Passengers:[{id:"minecraft:interaction",width:0.8f,height:1.5f,Tags:["kit1_set"]}],text:'[{"bold":true,"text":"ウォーリアー\\n"},{"bold":false,"text":"アサルトライフル\\n"},{"bold":false,"text":"グレネード\\n"},{"bold":false,"text":"グレネード\\n"},{"bold":false,"text":"トラップ\\n"},{"bold":false,"text":"スモーク\\n"}]'}

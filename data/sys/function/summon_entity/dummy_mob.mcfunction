@@ -1,1 +1,0 @@
-summon creeper ~ ~ ~ {CustomNameVisible:1b,NoAI:1b,Health:1000f,Tags:["dummy_entity"],CustomName:'"dummy"',attributes:[{id:"minecraft:generic.max_health",base:1000}]}

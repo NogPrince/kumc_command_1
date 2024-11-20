@@ -1,9 +1,0 @@
-{
-  "parent": "sys:item/root",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible",
-      "conditions": {}
-    }
-  }
-}

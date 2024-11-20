@@ -1,1 +1,0 @@
-summon text_display ~ ~ ~ {Rotation:[180F,0F],Tags:["start_set_text"],Passengers:[{id:"minecraft:interaction",width:0.8f,height:0.5f,Tags:["start_set"]}],text:'[{"text":"試合を開始する"}]'}
