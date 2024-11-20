@@ -1,0 +1,1 @@
+summon text_display ~ ~ ~ {billboard:"vertical",Rotation:[180F,0F],Tags:["green_set_text"],Passengers:[{id:"minecraft:interaction",width:0.8f,height:0.5f,Tags:["green_set"]}],text:'{"bold":true,"color":"green","text":"GREEN"}'}
