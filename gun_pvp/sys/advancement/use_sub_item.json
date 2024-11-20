@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:creeper_drop_music_discs"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sys:gun_main/sub/advancement/use_sub"
+  }
+}
